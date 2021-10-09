@@ -1,0 +1,17 @@
+//Find the time complexity T(n) of the following code snippet:
+a = 1
+b = 1
+while(b <= n)
+{
+    a += 1;
+    b += a;
+    printf("Hi LetsUpgraders");
+}
+
+/**It takes root(n) time complexity
+
+	for n = 10:
+		4 times "Hi LetsUpgrade" is printed
+		which is approximately root(n)+1
+		
+	Time Complexity : O(n^(1/2)) or O(sqrt(n))**/
