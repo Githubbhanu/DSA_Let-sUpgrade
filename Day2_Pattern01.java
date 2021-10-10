@@ -2,13 +2,9 @@
 Write code to print the following pattern:
 
 1
-
 0 1
-
 1 0 1
-
 0 1 0 1
-
 1 0 1 0 1
 **/
 import java.util.Scanner;
